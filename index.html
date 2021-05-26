@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+
+  <style>
+    .my-handle {
+        cursor: move;
+        cursor: -webkit-grabbing;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    
+  
+  <script src="./node_modules/sortablejs/modular/sortable.core.esm.js" type="module"></script>
+  <script src="./useSortable.js" type="module"></script>
+  
+  
+  <!-- List with handle -->
+  <ul id="listWithHandle">
+      <li class="list-group-item">
+        <span class="glyphicon glyphicon-move my-handle" aria-hidden="true"></span>
+        Item 1
+      </li>
+    <li class="list-group-item">
+        <span class="glyphicon glyphicon-move my-handle" aria-hidden="true"></span>
+        Item 2
+      </li>
+  </ul>
+
+  
+</body>
+</html>
